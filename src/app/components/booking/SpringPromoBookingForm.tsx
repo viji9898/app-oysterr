@@ -1,7 +1,7 @@
 "use client";
 
 // components/booking/SpringPromoBookingForm.tsx
-import React, { useState } from "react";
+import React, { useState, FormEvent, ChangeEvent } from "react";
 import Image from "next/image";
 
 const SpringPromoBookingForm = () => {
@@ -15,7 +15,7 @@ const SpringPromoBookingForm = () => {
 
   const [isSubmitting, setIsSubmitting] = useState(false);
 
-  const handleInputChange = (e) => {
+  const handleInputChange = (e: ChangeEvent<HTMLInputElement>) => {
     const { name, value, type, checked } = e.target;
     setFormData({
       ...formData,
@@ -23,7 +23,7 @@ const SpringPromoBookingForm = () => {
     });
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
     setIsSubmitting(true);
 

@@ -7,7 +7,7 @@ import RiskFree from "./components/riskFree/riskFree";
 
 export default function Home() {
   return (
-    <div className="mt-[80px]mx-4">
+    <div className="mt-[80px]">
       {/* Top sections without gradient */}
       <HeroSection />
       <WordScroll />
