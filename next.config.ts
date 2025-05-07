@@ -3,7 +3,7 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ["framerusercontent.com"], // Add the domain here
+    domains: ["framerusercontent.com", "metana.io"], // Add the domain here
   },
 };
 

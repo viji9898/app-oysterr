@@ -36,7 +36,7 @@ export default function HeroSection() {
   }, []);
 
   return (
-    <div className="relative bg-[rgb(233, 233, 233))] text-black font-sans rounded-3xl overflow-hidden mx-4 md:mx-auto max-w-[1352px] md:max-h-[614px] min-h-screen md:min-h-[614px]">
+    <div className="relative bg-[rgb(233, 233, 233))] text-black rounded-3xl overflow-hidden mx-4 md:mx-auto max-w-[1352px] md:max-h-[614px] min-h-screen md:min-h-[614px]">
       {/* Content */}
 
       <div className="relative z-10 flex flex-col md:flex-row items-center justify-between px-6 md:px-20 py-14 gap-12 h-full">

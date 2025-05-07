@@ -1,18 +1,28 @@
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
+import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import HeroSection from "./components/Hero";
-import WordScroll from "./components/WordScroll";
+import Footer from "./components/layout/Footer";
 
-const geistSans = Geist({
-  variable: "--font-geist-sans",
-  subsets: ["latin"],
-});
+// const geistSans = Geist({
+//   variable: "--font-geist-sans",
+//   subsets: ["latin"],
+// });
 
-const geistMono = Geist_Mono({
-  variable: "--font-geist-mono",
+// const geistMono = Geist_Mono({
+//   variable: "--font-geist-mono",
+//   subsets: ["latin"],
+// });
+
+// Load Be Vietnam Pro with all the weights you need
+const beVietnamPro = Be_Vietnam_Pro({
   subsets: ["latin"],
+  // Include all the weights you plan to use
+  weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
+  // Include italic styles if needed
+  style: ["normal", "italic"],
+  display: "swap",
+  variable: "--font-be-vietnam-pro",
 });
 
 export const metadata: Metadata = {
@@ -27,17 +37,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
+      <body className={`font-be-vietnam-pro antialiased `}>
         <Navbar />
-        <div className="mt-[80px]">
-          {" "}
-          {/* Adjust margin-top to match Navbar height */}
-          <HeroSection />
-        </div>
-        <WordScroll />
-        {children}
+        <div>{children}</div>
+        <Footer />
       </body>
     </html>
   );

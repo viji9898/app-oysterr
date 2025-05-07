@@ -89,13 +89,13 @@ export default function Navbar() {
 
           {/* CTA */}
           <Link
-            href="#"
+            href="/services-pricing-pdf"
             className="ml-4 bg-lime-300 hover:bg-lime-400 text-black font-semibold px-4 py-2 rounded-lg"
           >
             ⬇️ Services & Pricing PDF
           </Link>
           <Link
-            href="#"
+            href="/book-a-call"
             className="ml-4 bg-lime-300 hover:bg-lime-400 text-black font-semibold px-4 py-2 rounded-lg"
           >
             Book a call →
