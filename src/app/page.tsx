@@ -6,6 +6,7 @@ import SuccessStories from "./components/successStories/successStories";
 import RiskFree from "./components/riskFree/riskFree";
 import TalentExperience from "./components/talentExperience/TalentExperience";
 import Pricing from "./components/pricing/Pricing";
+import AboutOysterr from "./components/about/aboutOysterr";
 
 export default function Home() {
   return (
@@ -13,7 +14,7 @@ export default function Home() {
       {/* Top sections without gradient */}
       <HeroSection />
       <TalentExperience />
-
+      <AboutOysterr />
       <RiskFree />
       <Pricing />
       <SuccessStories />
