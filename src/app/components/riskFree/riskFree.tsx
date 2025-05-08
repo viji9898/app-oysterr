@@ -40,23 +40,23 @@ const RiskFree = () => {
 
             <div className="text-gray-700 space-y-4 mb-8">
               <p>
-                With our job guarantee, you're guaranteed a new job in web3—or
-                you'll get a full tuition refund. We're so confident that our
-                programs provide a direct path to a high-paying job that we
-                offer the following guarantee:
+                With Oysterr Talent, you're guaranteed a high-performing remote
+                hire—or you get your money back. We’re confident our talent will
+                exceed your expectations, so we back it with the following:
               </p>
 
               <p>
-                If you qualify for our 100% Tuition Refund Guarantee, fulfill
-                the requirements, and still don't get job offers paying $50,000
-                a year (or $4,166 a month) within 180 days after graduation,
-                you'll get a full refund.
+                If your hire doesn’t deliver within the first 30 days, we’ll
+                replace them free of charge or refund you in full. No long-term
+                contracts. No risk.
               </p>
 
               <p>
-                We also offer a hassle-free two-week refund policy. If you're
-                not satisfied with your purchase for any reason, you can request
-                a refund, no questions asked.
+                We also offer a simple, no-questions-asked 14-day refund policy.
+              </p>
+              <p>
+                Hiring shouldn’t be hard. With Oysterr, it isn’t. Our job is to
+                make your team better—guaranteed.
               </p>
             </div>
 

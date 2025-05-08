@@ -13,22 +13,16 @@ const companies = [
     name: "IBM",
     logo: "https://metana.io/wp-content/uploads/2023/04/IBM-Logo.png",
   },
-  {
-    name: "Nike",
-    logo: "https://metana.io/wp-content/uploads/2023/04/Logo_NIKE.png",
-  },
-  {
-    name: "eBay",
-    logo: "https://metana.io/wp-content/uploads/2023/04/Ebay-logo.png",
-  },
+  // {
+  //   name: "Nike",
+  //   logo: "https://metana.io/wp-content/uploads/2023/04/Logo_NIKE.png",
+  // },
+
   {
     name: "Algorand",
     logo: "https://metana.io/wp-content/uploads/2023/10/algorand_full_logo_black.png",
   },
-  {
-    name: "Amazon",
-    logo: "https://metana.io/wp-content/uploads/2023/08/Amazon_logo.svg.png",
-  },
+
   {
     name: "Microsoft",
     logo: "https://metana.io/wp-content/uploads/2023/08/Microsoft_logo_2012.svg.webp",
@@ -41,10 +35,7 @@ const companies = [
     name: "Swisstonik",
     logo: "https://metana.io/wp-content/uploads/2023/10/Swisstonkc.png",
   },
-  {
-    name: "Thoughtful AI",
-    logo: "https://metana.io/wp-content/uploads/2023/10/Thoughtful-AI-.svg",
-  },
+
   {
     name: "Halborn",
     logo: "https://metana.io/wp-content/uploads/2023/10/Halborn-Logo-.png",
@@ -65,10 +56,7 @@ const companies = [
     name: "DiSTI",
     logo: "https://metana.io/wp-content/uploads/2023/10/DiSTI-logo.png",
   },
-  {
-    name: "Netflix",
-    logo: "https://metana.io/wp-content/uploads/2023/10/Netflix_2015_logo.svg.png",
-  },
+
   {
     name: "AWS",
     logo: "https://metana.io/wp-content/uploads/2023/10/AWS-logo.png",
@@ -77,10 +65,7 @@ const companies = [
     name: "Consensys",
     logo: "https://metana.io/wp-content/uploads/2023/10/Consensys-Logo.webp",
   },
-  {
-    name: "Meta",
-    logo: "https://metana.io/wp-content/uploads/2023/10/Meta_Platforms_Inc._logo.svg.png",
-  },
+
   {
     name: "Polygon",
     logo: "https://metana.io/wp-content/uploads/2023/10/Polygon_blockchain_logo.png",

@@ -87,14 +87,14 @@ const SuccessStories = () => {
             </a> */}
 
           {/* Forbes badge */}
-          <div className="hidden md:block absolute right-4 top-4 w-40 h-40">
+          {/* <div className="hidden md:block absolute right-4 top-4 w-40 h-40">
             <Image
               src="https://metana.io/wp-content/uploads/2024/12/Asset-77.png"
               alt="Forbes Best Coding Bootcamps"
               width={160}
               height={160}
             />
-          </div>
+          </div> */}
         </div>
 
         {/* Testimonials */}

@@ -10,42 +10,48 @@ const AboutOysterr = () => {
           </span>
         </div>
         <h2 className="text-4xl font-bold text-pink-600 text-center mb-6">
-          Be Metana Certified
+          Get Matched by Oysterr
         </h2>
         <p className="text-gray-700 text-lg text-center mb-16">
-          Metana's skills certifications are a set of free certification tests
-          open to all developers. Designed to help you grow your career,
-          Metana’s skills certifications are a recognizable way to showcase your
-          technical knowledge to your network, your peers, and potential
-          employers.
+          Oysterr Talent connects fast-growing companies with world-class remote
+          professionals across executive support, operations, and sales. Built
+          for startups and scale-ups, our fully managed hiring service helps you
+          unlock exceptional talent without the overhead. Whether you're hiring
+          your first assistant or scaling your sales team, Oysterr simplifies
+          the process—sourcing, training, and supporting talent so you can focus
+          on growth.
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-12 mb-20">
           <div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">
-              Stand out from the crowd
+              Stand out with world-class talent
             </h3>
             <p className="text-gray-600">
-              Get certified in technical skills by taking the Metana’s Skills
-              Certification Test
+              We handpick top performers trained in startup operations,
+              executive assistance, and sales—ready to make an impact from day
+              one.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">
-              Standardized Assessment
+              Streamlined Hiring Process
             </h3>
             <p className="text-gray-600">
-              Assessments are organized around specific skills and are carefully
-              curated based on years of recruiting data from 2000+ companies
+              From screening to onboarding, we handle it all. Every candidate
+              goes through our rigorous vetting and training programs built from
+              real startup experience.
             </p>
           </div>
           <div>
             <h3 className="text-xl font-bold text-gray-900 mb-2">
-              Enrich your profile
+              Start Building Your Dream Team
             </h3>
             <p className="text-gray-600">
-              Upon successfully clearing an assessment, you can promote yourself
-              using the Metana's certificate to peers and employers
+              It doesn’t matter if you're Series A or solo—Oysterr helps you
+              grow faster by giving you access to the kind of talent typically
+              reserved for the big leagues. Let’s get started. You could have
+              your first hire in as little as 7 days.
             </p>
           </div>
         </div>
