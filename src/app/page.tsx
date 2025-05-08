@@ -7,12 +7,14 @@ import RiskFree from "./components/riskFree/riskFree";
 import TalentExperience from "./components/talentExperience/TalentExperience";
 import Pricing from "./components/pricing/Pricing";
 import AboutOysterr from "./components/about/aboutOysterr";
+import Hero from "./components/hero/Hero";
 
 export default function Home() {
   return (
     <div className="mt-[80px]">
       {/* Top sections without gradient */}
-      <HeroSection />
+      {/* <HeroSection /> */}
+      <Hero />
       <TalentExperience />
       <AboutOysterr />
       <RiskFree />
