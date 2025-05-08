@@ -37,7 +37,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-be-vietnam-pro antialiased `}>
+      <head>
+        <meta name="color-scheme" content="light only" />
+      </head>
+      <body className={`font-be-vietnam-pro antialiased bg-white`}>
         <Navbar />
         <div>{children}</div>
         <Footer />
