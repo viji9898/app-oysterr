@@ -18,6 +18,7 @@ export default function Navbar() {
           <img
             src="https://framerusercontent.com/images/8HskUPXIyNNIIjgzBDrugj5RME.png"
             alt="Oysterr"
+            style={{ height: "34px", width: "auto" }}
           />
         </Link>
 
