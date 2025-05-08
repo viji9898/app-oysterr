@@ -7,33 +7,33 @@ const Hero = () => {
       <div className="max-w-[1060px] mx-auto px-4 grid md:grid-cols-2 gap-12 items-center">
         <div>
           <p className="uppercase text-sm font-bold text-green-700 bg-green-100 inline-block px-3 py-1 rounded-md mb-3">
-            Job Guarantee
+            Remote Talent
           </p>
           <h1 className="text-4xl font-extrabold text-gray-900 leading-tight mb-3">
-            Web3 <span className="bg-lime-300 px-1">Solidity</span> Bootcamp
+            Reliable. <span className="bg-lime-300 px-1"> Fast.</span>Flexible.
           </h1>
           <h2 className="text-lg bg-blue-300 inline-block px-2 py-1 font-semibold mb-4">
-            Most advanced Solidity curriculum on the internet
+            Scale fast without the hiring headache.
           </h2>
           <p className="text-gray-700 mb-6">
-            Web3 Solidity bootcamp is a 4-month program designed for your
-            transition from Web2 to Web3. Our{" "}
-            <strong>project-based curriculum</strong> will teach you everything
-            about Ethereum Blockchain, DeFi, and smart contracts.
+            Oysterr Talent matches you with top-tier remote professionals in
+            sales, operations, and executive support. They're pre-vetted,
+            startup-ready, and trained to deliver{" "}
+            <strong>impact—onboarded </strong>in days, not weeks.
           </p>
 
           <ul className="space-y-2 text-sm text-gray-800 mb-6">
             <li className="flex items-start">
+              <span className="text-green-500 text-xl mr-2">✓</span> Flexible,
+              scalable, and cost-effective
+            </li>
+            <li className="flex items-start">
               <span className="text-green-500 text-xl mr-2">✓</span> Guaranteed
-              job or 100% money back
+              performance or your money back
             </li>
             <li className="flex items-start">
-              <span className="text-green-500 text-xl mr-2">✓</span> Risk free
-              2-week refund period
-            </li>
-            <li className="flex items-start">
-              <span className="text-green-500 text-xl mr-2">✓</span> Online,
-              part-time program.
+              <span className="text-green-500 text-xl mr-2">✓</span> Dedicated
+              support and seamless onboarding
             </li>
           </ul>
 
@@ -104,30 +104,22 @@ const Hero = () => {
       <div className="max-w-[1060px] mx-auto px-4">
         <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-sm font-medium">
           <div className="rounded-xl bg-white shadow-md py-6 px-4 w-full">
-            <h5 className="text-[#0F172A] text-lg font-extrabold mb-1">
-              Online
-            </h5>
-            <p className="text-[#4ADE80] font-semibold">Campus</p>
+            <h5 className="text-[#0F172A] text-lg font-extrabold mb-1">85%</h5>
+            <p className="text-[#4ADE80] font-semibold">Candiate match rate</p>
           </div>
           <div className="rounded-xl bg-white shadow-md py-6 px-4 w-full">
-            <h5 className="text-[#0F172A] text-lg font-extrabold mb-1">
-              16 Weeks
-            </h5>
-            <p className="text-[#4ADE80] font-semibold">Course Duration</p>
+            <h5 className="text-[#0F172A] text-lg font-extrabold mb-1">78</h5>
+            <p className="text-[#4ADE80] font-semibold">Oysterrs</p>
           </div>
           <div className="rounded-xl bg-white shadow-md py-6 px-4 w-full">
-            <h5 className="text-[#0F172A] text-lg font-extrabold mb-1">
-              20h/Week
-            </h5>
-            <p className="text-[#4ADE80] font-semibold">Time Commitment</p>
+            <h5 className="text-[#0F172A] text-lg font-extrabold mb-1">5</h5>
+            <p className="text-[#4ADE80] font-semibold">Time Zones</p>
           </div>
           <div className="rounded-xl bg-white shadow-md py-6 px-4 w-full">
             <h5 className="text-[#0F172A] text-lg font-extrabold mb-1">
               4.8 Star
             </h5>
-            <p className="text-[#4ADE80] font-semibold">
-              Rating on Course Report
-            </p>
+            <p className="text-[#4ADE80] font-semibold">Satisfaction Score</p>
           </div>
         </div>
       </div>
