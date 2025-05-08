@@ -22,7 +22,7 @@ export default function Navbar() {
         </Link>
 
         {/* Desktop nav */}
-        <nav className="hidden md:flex gap-8 items-center text-sm font-medium text-gray-800 relative">
+        <nav className="hidden md:flex gap-8 items-center text-xsm font-medium text-gray-800 relative">
           <Link href="#">Solidity Bootcamp</Link>
 
           {/* Bootcamps Dropdown */}
@@ -88,12 +88,12 @@ export default function Navbar() {
           <Link href="#">Blog</Link>
 
           {/* CTA */}
-          <Link
+          {/* <Link
             href="/services-pricing-pdf"
             className="ml-4 bg-lime-300 hover:bg-lime-400 text-black font-semibold px-4 py-2 rounded-lg"
           >
             ⬇️ Services & Pricing PDF
-          </Link>
+          </Link> */}
           <Link
             href="/book-a-call"
             className="ml-4 bg-lime-300 hover:bg-lime-400 text-black font-semibold px-4 py-2 rounded-lg"
@@ -114,13 +114,13 @@ export default function Navbar() {
       {/* Mobile Drawer */}
       {isOpen && (
         <div className="md:hidden bg-white px-6 pt-4 pb-10 shadow-lg">
-          <div className="flex flex-col gap-4">
-            <Link
+          <div className="flex flex-col gap-4 text-blue-900">
+            {/* <Link
               href="#"
               className="ml-4 bg-lime-300 hover:bg-lime-400 text-black font-semibold px-4 py-2 rounded-lg"
             >
               ⬇️ Services & Pricing PDF
-            </Link>
+            </Link> */}
             <Link
               href="#"
               className="ml-4 bg-lime-300 hover:bg-lime-400 text-black font-semibold px-4 py-2 rounded-lg"

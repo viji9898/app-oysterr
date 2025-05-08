@@ -48,7 +48,7 @@ const Hero = () => {
               href="#"
               className="text-blue-700 underline flex items-center gap-2"
             >
-              Download Syllabus
+              Services & Pricing PDF
               <svg
                 className="w-4 h-4"
                 fill="currentColor"
