@@ -4,12 +4,14 @@ import WordScroll from "./components/WordScroll";
 import SpringPromoBookingForm from "./components/booking/SpringPromoBookingForm";
 import SuccessStories from "./components/successStories/successStories";
 import RiskFree from "./components/riskFree/riskFree";
+import TalentExperience from "./components/talentExperience/TalentExperience";
 
 export default function Home() {
   return (
     <div className="mt-[80px]">
       {/* Top sections without gradient */}
       <HeroSection />
+      <TalentExperience />
       <WordScroll />
       <RiskFree />
       <SuccessStories />
