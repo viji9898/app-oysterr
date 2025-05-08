@@ -5,6 +5,7 @@ import SpringPromoBookingForm from "./components/booking/SpringPromoBookingForm"
 import SuccessStories from "./components/successStories/successStories";
 import RiskFree from "./components/riskFree/riskFree";
 import TalentExperience from "./components/talentExperience/TalentExperience";
+import Pricing from "./components/pricing/Pricing";
 
 export default function Home() {
   return (
@@ -12,10 +13,11 @@ export default function Home() {
       {/* Top sections without gradient */}
       <HeroSection />
       <TalentExperience />
-      <WordScroll />
-      <RiskFree />
-      <SuccessStories />
 
+      <RiskFree />
+      <Pricing />
+      <SuccessStories />
+      <WordScroll />
       {/* Sections with gradient background */}
       <div className="relative">
         {/* Gradient background - light blue to white */}
