@@ -59,16 +59,34 @@ const Hero = () => {
             </a>
           </div>
         </div>
+        {/* Right Content with Image */}
+        <div className="relative shrink-0">
+          {/* Rotating Circle Behind Image */}
+          <div className="absolute inset-0 flex items-center justify-center z-0 ">
+            <div className="w-[300px] h-[300px] md:w-[420px] md:h-[420px] rounded-full border-2 border-blue-500 opacity-20 animate-spin-slow"></div>
+          </div>
 
+          {/* Rocking 3/4 Circle Behind Image */}
+          <div className="absolute inset-0 flex items-center justify-center z-0">
+            <div className="rocking-circle bg-lime-300"></div>
+          </div>
+
+          {/* Image */}
+          <img
+            src="https://oyster.wickyanalysis.com/wp-content/uploads/2025/02/image-1-2.png"
+            alt="Student testimonial"
+            className="w-[1000px] md:w-[2000px] relative z-10"
+          />
+        </div>
         <div className="relative">
-          <Image
+          {/* <Image
             src="https://metana.io/wp-content/uploads/2023/11/Santiago-2-1.webp"
             alt="Instructor"
             width={791}
             height={914}
             className="w-full max-w-sm mx-auto rounded-lg"
-          />
-          <a
+          /> */}
+          {/* <a
             href="https://www.forbes.com/advisor/education/bootcamps/best-coding-bootcamps-with-job-guarantee/#metana_software_engineering_bootcamp"
             target="_blank"
             rel="noopener noreferrer"
@@ -80,7 +98,7 @@ const Hero = () => {
               height={419}
               className="absolute bottom-0 left-1/2 -translate-x-1/2 w-32"
             />
-          </a>
+          </a> */}
         </div>
       </div>
       <div className="max-w-[1060px] mx-auto px-4">
