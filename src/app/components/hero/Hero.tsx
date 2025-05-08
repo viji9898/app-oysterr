@@ -84,7 +84,7 @@ const Hero = () => {
         </div>
       </div>
       <div className="max-w-[1060px] mx-auto px-4">
-        <div className="grid grid-cols-4 sm:grid-cols-4 gap-6 px-4">
+        <div className="w-full grid grid-cols-2 md:grid-cols-4 gap-6 text-center text-sm font-medium">
           <div className="rounded-xl bg-white shadow-md py-6 px-4 w-full">
             <h5 className="text-[#0F172A] text-lg font-extrabold mb-1">
               Online
