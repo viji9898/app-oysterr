@@ -24,10 +24,11 @@ export default function Navbar() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex gap-8 items-center text-xsm font-medium text-gray-800 relative">
-          <Link href="#">Solidity Bootcamp</Link>
+          <Link href="#">Product</Link>
+          <Link href="#">Pricing</Link>
 
           {/* Bootcamps Dropdown */}
-          <div
+          {/* <div
             className="relative"
             onMouseEnter={() => setShowBootcamps(true)}
             onMouseLeave={() => setShowBootcamps(false)}
@@ -54,10 +55,10 @@ export default function Navbar() {
                 </Link>
               </div>
             )}
-          </div>
+          </div> */}
 
           {/* Resources Dropdown */}
-          <div
+          {/* <div
             className="relative"
             onMouseEnter={() => setShowResources(true)}
             onMouseLeave={() => setShowResources(false)}
@@ -84,9 +85,9 @@ export default function Navbar() {
                 </Link>
               </div>
             )}
-          </div>
+          </div> */}
 
-          <Link href="#">Blog</Link>
+          {/* <Link href="#">Blog</Link> */}
 
           {/* CTA */}
           {/* <Link
@@ -128,23 +129,13 @@ export default function Navbar() {
             >
               Book a call →
             </Link>
-            <div className="text-blue-900 font-bold text-lg">Bootcamps</div>
-            <Link href="#">Web3 Solidity</Link>
-            <Link href="#">Web3 Beginner</Link>
-            <Link href="#">Web3 Rust</Link>
-            <Link href="#">Full Stack Software</Link>
-            <Link href="#">Advanced Software</Link>
 
-            <div className="mt-6 text-blue-900 font-bold text-lg">
-              Resources
+            <Link href="#">Product</Link>
+            <Link href="#">Pricing</Link>
+
+            <div className="mt-6 text-sm text-gray-500">
+              hello@oysterrtalent.com
             </div>
-            <Link href="#">Blog</Link>
-            <Link href="#">Reviews</Link>
-            <Link href="#">Job Guarantee</Link>
-            <Link href="#">Events</Link>
-            <Link href="#">Tuition</Link>
-
-            <div className="mt-6 text-sm text-gray-500">info@metana.io</div>
             <div className="flex gap-3 mt-2">
               <span>🌐</span>
               <span>🐦</span>
