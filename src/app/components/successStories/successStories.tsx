@@ -13,12 +13,12 @@ const testimonials = [
     countryCode: "UK",
     image: "https://metana.io/wp-content/uploads/2024/04/Mathieu-Bertin.jpeg",
     quote: [
-      "If I can serve as an inspiration for you guys, I just got a job offer a few hours ago at 110k plus 20K tokens.",
-      "So, this is only a few weeks away, guys, like literally just a few weeks away. Hard work and you get there, like, immediately.",
-      "That's crazy, you know. 130k USD in Thailand. I'm balling like this is gonna be a great time.",
+      "Oysterr has been a logistics lifesaver. They connected us with top-tier Sri Lankan pros who just get stuff done.",
+      "Our operations now run like clockwork—costs down, efficiency up. It’s wild how smooth things are.",
+      "Honestly, it’s the smartest way we’ve scaled without breaking the bank. Total game-changer.",
     ],
     videoThumbnail: "https://metana.io/wp-content/uploads/2024/10/2.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=hZbV3ppzVhA",
+    videoUrl: "https://player.vimeo.com/video/1081910456",
   },
   {
     id: 2,
@@ -45,7 +45,7 @@ const testimonials = [
       "The mentors are very knowledgeable about their subjects and can give you in-depth guidance about specific questions you have. These are the kinds of things I've experienced, so I would definitely join up if you want to become a Solidity expert and learn everything from security to the implementation of smart contracts.",
     ],
     videoThumbnail: "https://metana.io/wp-content/uploads/2024/10/1.jpg",
-    videoUrl: "https://www.youtube.com/watch?v=hZbV3ppzVhA",
+    videoUrl: "https://player.vimeo.com/video/1081910456",
   },
 ];
 
@@ -110,28 +110,18 @@ const SuccessStories = () => {
                   : ""
               }`}
             >
-              {/* Video thumbnail (only show if videoUrl exists) */}
+              {/* Video embed (if videoUrl exists) */}
               {testimonial.videoUrl && (
-                <div className="md:w-2/5 relative">
-                  <div className="relative h-full min-h-[300px]">
-                    <Image
-                      src={testimonial.videoThumbnail}
-                      alt={`${testimonial.name}'s success story`}
-                      fill
-                      style={{ objectFit: "cover" }}
-                      className="w-full h-full object-cover"
-                    />
-                    <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-16 h-16 bg-black bg-opacity-50 rounded-full flex items-center justify-center cursor-pointer hover:bg-opacity-70 transition-all">
-                        <svg
-                          className="w-8 h-8 text-white"
-                          fill="currentColor"
-                          viewBox="0 0 20 20"
-                        >
-                          <path d="M6.3 2.841A1.5 1.5 0 004 4.11V15.89a1.5 1.5 0 002.3 1.269l9.344-5.89a1.5 1.5 0 000-2.538L6.3 2.84z" />
-                        </svg>
-                      </div>
-                    </div>
+                <div className="md:w-2/5 bg-black">
+                  <div className="relative aspect-video w-full h-full">
+                    <iframe
+                      src={testimonial.videoUrl}
+                      className="w-full h-full"
+                      frameBorder="0"
+                      allow="autoplay; fullscreen; picture-in-picture"
+                      allowFullScreen
+                      title={`${testimonial.name}'s testimonial video`}
+                    ></iframe>
                   </div>
                 </div>
               )}
@@ -171,7 +161,7 @@ const SuccessStories = () => {
                       <span className="inline-flex items-center">
                         {testimonial.countryCode === "CA" && "🇨🇦"}
                         {testimonial.countryCode === "CO" && "🇨🇴"}
-                        {testimonial.countryCode === "CH" && "🇨🇭"}{" "}
+                        {testimonial.countryCode === "CH" && "🇨🇭"}
                         {testimonial.countryCode === "UK" && "🇬🇧"}{" "}
                         {testimonial.country}
                       </span>
