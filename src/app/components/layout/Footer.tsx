@@ -15,9 +15,11 @@ const Footer = () => {
             <h3 className="text-gray-500 text-sm font-medium uppercase mb-4">
               ADDRESS
             </h3>
-            <p className="text-gray-900 font-medium mb-2">44 Montgomery St,</p>
+            <p className="text-gray-900 font-medium mb-2">
+              Soho Works Shoreditch
+            </p>
             <p className="text-gray-900 font-medium mb-8">
-              San Francisco, CA 94104, United States
+              56 Shoreditch High St, London E1 6JJ, UK
             </p>
 
             {/* Newsletter subscription */}
@@ -43,10 +45,12 @@ const Footer = () => {
 
             <div className="mb-8">
               <p className="text-gray-900 font-medium mb-2">Call us directly</p>
-              <p className="text-gray-900 mb-4">(415) 416-0800</p>
+              <p className="text-gray-900 mb-4">
+                (+44) 77 23 77 23 77 | (0208) 670 1517
+              </p>
             </div>
 
-            <div className="mb-8">
+            {/* <div className="mb-8">
               <p className="text-gray-900 font-medium mb-2">
                 For questions about bootcamps, tuition and admissions:
               </p>
@@ -56,7 +60,7 @@ const Footer = () => {
               >
                 admissions@metana.io
               </a>
-            </div>
+            </div> */}
 
             <div>
               <p className="text-gray-900 font-medium mb-2">
@@ -67,7 +71,7 @@ const Footer = () => {
                 href="mailto:info@metana.io"
                 className="text-gray-900 hover:text-blue-600"
               >
-                info@metana.io
+                hello@oysterrTalent.com
               </a>
             </div>
           </div>
