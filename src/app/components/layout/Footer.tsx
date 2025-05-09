@@ -318,27 +318,27 @@ const Footer = () => {
               <div className="mb-4">
                 <Link href="/">
                   <Image
-                    src="/images/metana-logo.png"
-                    alt="Metana.io"
+                    src="https://framerusercontent.com/images/8HskUPXIyNNIIjgzBDrugj5RME.png"
+                    alt="Oysterr"
                     width={180}
                     height={50}
                   />
                 </Link>
               </div>
               <p className="text-gray-600 text-sm max-w-2xl mb-2">
-                Metana is a pioneer in education and career transformation,
-                specializing in today's most in-demand skills. The leading
-                source for training, staffing, and career transitions, we foster
-                a flourishing community of professionals pursuing careers they
-                love.
+                Oysterr Talent connects global startups with exceptional remote
+                professionals from Sri Lanka. We specialize in sourcing,
+                onboarding, and managing talent across operations, admin, and
+                business development—empowering teams to scale faster, leaner,
+                and smarter.
               </p>
               <p className="text-gray-500 text-sm">
-                © 2025 Edmore (Private) Limited
+                © 2025 Oysterr Talent (Private) Limited
               </p>
             </div>
 
             <div className="flex space-x-4 items-start">
-              <a
+              {/* <a
                 href="https://facebook.com/metanaio"
                 aria-label="Facebook"
                 className="text-gray-400 hover:text-gray-700"
@@ -355,8 +355,8 @@ const Footer = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
-              <a
+              </a> */}
+              {/* <a
                 href="https://twitter.com/metanaio"
                 aria-label="Twitter"
                 className="text-gray-400 hover:text-gray-700"
@@ -369,9 +369,9 @@ const Footer = () => {
                 >
                   <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84" />
                 </svg>
-              </a>
+              </a> */}
               <a
-                href="https://linkedin.com/company/metanaio"
+                href="https://www.linkedin.com/company/oysterr/"
                 aria-label="LinkedIn"
                 className="text-gray-400 hover:text-gray-700"
               >
@@ -388,7 +388,7 @@ const Footer = () => {
                   />
                 </svg>
               </a>
-              <a
+              {/* <a
                 href="https://github.com/metanaio"
                 aria-label="GitHub"
                 className="text-gray-400 hover:text-gray-700"
@@ -405,16 +405,21 @@ const Footer = () => {
                     clipRule="evenodd"
                   />
                 </svg>
-              </a>
+              </a> */}
             </div>
           </div>
 
           {/* Disclaimer */}
           <div className="mt-6 text-gray-500 text-[12px]">
             <p>
-              Disclaimer: Metana is exclusively focused on blockchain education.
-              We do not engage in any cryptocurrency-related activities, nor do
-              we provide advice or guidance in the cryptocurrency field.
+              The information provided on this website is for general
+              informational purposes only. While we strive to keep content
+              accurate and up-to-date, Oysterr Talent makes no representations
+              or warranties of any kind regarding the completeness or accuracy
+              of the information. All services are subject to availability and
+              formal engagement terms. Oysterr Talent does not accept liability
+              for any loss or damage arising from the use of this website or its
+              content.
             </p>
           </div>
         </div>
