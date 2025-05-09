@@ -3,6 +3,7 @@
 // components/booking/SpringPromoBookingForm.tsx
 import React, { useState, FormEvent, ChangeEvent } from "react";
 import Image from "next/image";
+import OfferDeadline from "./OfferDeadline";
 
 const SpringPromoBookingForm = () => {
   const [formData, setFormData] = useState({
@@ -46,28 +47,28 @@ const SpringPromoBookingForm = () => {
             <div className="flex mb-4">
               <div className="h-12 sm:h-14 w-12 sm:w-14 rounded-full border-4 border-lime-400 overflow-hidden z-30 relative">
                 <Image
-                  src="/images/profile-1.jpg"
+                  src="https://metana.io/wp-content/uploads/2024/12/Metana-Team-PFP-shevin-2.png"
                   alt="Team member"
-                  width={56}
-                  height={56}
+                  width={30}
+                  height={30}
                   className="object-cover w-full h-full"
                 />
               </div>
               <div className="h-12 sm:h-14 w-12 sm:w-14 rounded-full border-4 border-lime-400 overflow-hidden -ml-3 z-20 relative">
                 <Image
-                  src="/images/profile-2.jpg"
+                  src="https://metana.io/wp-content/uploads/2024/12/T03HW9TLR5J-U03SYLP68RJ-ee5d61293711-192.jpeg"
                   alt="Team member"
-                  width={56}
-                  height={56}
+                  width={30}
+                  height={30}
                   className="object-cover w-full h-full"
                 />
               </div>
               <div className="h-12 sm:h-14 w-12 sm:w-14 rounded-full border-4 border-lime-400 overflow-hidden -ml-3 z-10 relative">
                 <Image
-                  src="/images/profile-3.jpg"
+                  src="https://metana.io/wp-content/uploads/2024/12/Ounvin.jpg"
                   alt="Team member"
-                  width={56}
-                  height={56}
+                  width={30}
+                  height={30}
                   className="object-cover w-full h-full"
                 />
               </div>
@@ -76,15 +77,16 @@ const SpringPromoBookingForm = () => {
             {/* Spring Career Kickstart Banner */}
             <div className="bg-gray-800 text-white px-3 py-1 sm:px-4 sm:py-2 inline-block mb-3 sm:mb-4">
               <h3 className="text-sm sm:text-base md:text-lg font-bold">
-                Spring Career Kickstart
+                Remote Hiring Kickstart
               </h3>
             </div>
 
             {/* Main Headline */}
             <h2 className="text-xl sm:text-2xl md:text-3xl font-bold text-gray-800 mb-4 sm:mb-6">
               Book a call before{" "}
-              <span className="bg-yellow-300 px-1">Apr 26th</span> to get 20%
-              OFF!
+              <span>
+                <OfferDeadline />
+              </span>{" "}
             </h2>
 
             {/* Benefits List */}
@@ -104,8 +106,8 @@ const SpringPromoBookingForm = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="text-sm sm:text-base font-medium">
-                  Guarantee: Job or 100% money back
+                <h3 className="text-sm sm:text-base font-medium text-black">
+                  Guaranteed talent replacement
                 </h3>
               </div>
 
@@ -124,8 +126,8 @@ const SpringPromoBookingForm = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="text-sm sm:text-base font-medium">
-                  Expert-curated curriculum
+                <h3 className="text-sm sm:text-base font-medium text-black">
+                  Vetted professionals trained for startups
                 </h3>
               </div>
 
@@ -144,8 +146,8 @@ const SpringPromoBookingForm = () => {
                     />
                   </svg>
                 </div>
-                <h3 className="text-sm sm:text-base font-medium">
-                  On-demand mentor support
+                <h3 className="text-sm sm:text-base font-medium text-black">
+                  On-demand client success support
                 </h3>
               </div>
             </div>
