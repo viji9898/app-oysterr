@@ -2,6 +2,7 @@
 
 import React from "react";
 import SpringPromoBookingForm from "../components/booking/SpringPromoBookingForm";
+import FAQSection from "./FaqSection";
 
 export const metadata = {
   title: "Book a Call - Spring Career Kickstart | Your Company",
@@ -25,7 +26,7 @@ export default function BookACallPage() {
 
       <div className="max-w-3xl mx-auto mt-16">
         <h2 className="text-2xl font-bold mb-6 text-center">
-          What to Expect on Your Call
+          What to Expect on Your Call with Oysterr
         </h2>
 
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -33,10 +34,10 @@ export default function BookACallPage() {
             <div className="bg-blue-100 text-blue-800 w-12 h-12 rounded-full flex items-center justify-center mb-4 font-bold text-xl">
               1
             </div>
-            <h3 className="font-bold text-lg mb-2">Career Assessment</h3>
+            <h3 className="font-bold text-lg mb-2">Your Needs</h3>
             <p className="text-gray-600">
-              We'll discuss your background, skills, and career goals to
-              understand where you want to go.
+              We’ll learn about your team, challenges, and what support you’re
+              looking for.
             </p>
           </div>
 
@@ -44,10 +45,10 @@ export default function BookACallPage() {
             <div className="bg-blue-100 text-blue-800 w-12 h-12 rounded-full flex items-center justify-center mb-4 font-bold text-xl">
               2
             </div>
-            <h3 className="font-bold text-lg mb-2">Program Exploration</h3>
+            <h3 className="font-bold text-lg mb-2">How Oysterr Helps</h3>
             <p className="text-gray-600">
-              Learn about our bootcamps and how our curriculum is designed to
-              prepare you for in-demand roles.
+              We’ll walk you through how our remote talent model works and share
+              examples.
             </p>
           </div>
 
@@ -55,16 +56,16 @@ export default function BookACallPage() {
             <div className="bg-blue-100 text-blue-800 w-12 h-12 rounded-full flex items-center justify-center mb-4 font-bold text-xl">
               3
             </div>
-            <h3 className="font-bold text-lg mb-2">Custom Roadmap</h3>
+            <h3 className="font-bold text-lg mb-2">Next Steps</h3>
             <p className="text-gray-600">
-              Get personalized recommendations and next steps to help you
-              achieve your career goals.
+              We’ll discuss if there’s a fit and outline what working together
+              could look like.
             </p>
           </div>
         </div>
       </div>
-
-      <div className="max-w-3xl mx-auto mt-16 text-center">
+      <FAQSection />
+      {/* <div className="max-w-3xl mx-auto mt-16 text-center">
         <h2 className="text-2xl font-bold mb-4">Frequently Asked Questions</h2>
         <p className="text-gray-600 mb-8">
           Here are some common questions about our consultation calls.
@@ -101,7 +102,7 @@ export default function BookACallPage() {
             you book before April 26th.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

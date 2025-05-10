@@ -88,56 +88,17 @@ const Footer = () => {
               <Link href="/" className="text-gray-700 hover:text-blue-600">
                 Home
               </Link>
-              <Link href="/blog" className="text-gray-700 hover:text-blue-600">
-                Blog
-              </Link>
               <Link
-                href="/tuition"
+                href="#about-us"
                 className="text-gray-700 hover:text-blue-600"
               >
-                Tuition
+                About
               </Link>
               <Link
-                href="/job-guarantee"
+                href="#pricing"
                 className="text-gray-700 hover:text-blue-600"
               >
-                Metana's Job Guarantee
-              </Link>
-              <Link href="/jobs" className="text-gray-700 hover:text-blue-600">
-                Jobs at Metana
-              </Link>
-              <Link href="/refer" className="text-gray-700 hover:text-blue-600">
-                Refer a friend
-              </Link>
-              <Link
-                href="/student-perks"
-                className="text-gray-700 hover:text-blue-600"
-              >
-                Student Perks
-              </Link>
-              <Link
-                href="/testimonials"
-                className="text-gray-700 hover:text-blue-600"
-              >
-                Testimonials
-              </Link>
-              <Link
-                href="/outcomes-report"
-                className="text-gray-700 hover:text-blue-600"
-              >
-                2024 Outcomes Report
-              </Link>
-              <Link
-                href="/lms-login"
-                className="text-gray-700 hover:text-blue-600"
-              >
-                LMS login
-              </Link>
-              <Link
-                href="/contact"
-                className="text-gray-700 hover:text-blue-600 border border-purple-300 rounded-full py-2 px-6 inline-block mt-4 text-center"
-              >
-                Still Unsure?
+                Pricing
               </Link>
             </nav>
           </div>
@@ -145,127 +106,32 @@ const Footer = () => {
           {/* Bootcamp links */}
           <div>
             <h3 className="text-gray-500 text-sm font-medium uppercase mb-6">
-              BOOTCAMP
+              FOR Our Partners
             </h3>
             <nav className="flex flex-col space-y-3">
               <Link
-                href="/bootcamps/coding"
-                className="text-gray-700 hover:text-blue-600 font-medium"
+                href="/business"
+                className="text-gray-700 hover:text-blue-600"
               >
-                Coding Bootcamps
+                Business
               </Link>
               <Link
-                href="/bootcamps/software-engineering"
-                className="text-gray-700 hover:text-blue-600 pl-2"
+                href="/business/hiring-partner"
+                className="text-gray-700 hover:text-blue-600"
               >
-                - Software Engineering Bootcamp
+                - Hiring Partner
               </Link>
               <Link
-                href="/bootcamps/software-engineering-career"
-                className="text-gray-700 hover:text-blue-600 pl-2"
+                href="/business/upskill"
+                className="text-gray-700 hover:text-blue-600"
               >
-                - Software Engineering Career Accelerator
-              </Link>
-
-              <Link
-                href="/bootcamps/web3"
-                className="text-gray-700 hover:text-blue-600 font-medium"
-              >
-                Web3 Bootcamps
-              </Link>
-              <Link
-                href="/bootcamps/solidity"
-                className="text-gray-700 hover:text-blue-600 pl-2"
-              >
-                - Solidity Bootcamp
-              </Link>
-              <Link
-                href="/bootcamps/web3-beginner"
-                className="text-gray-700 hover:text-blue-600 pl-2"
-              >
-                - Web3 Beginner Bootcamp
-              </Link>
-              <Link
-                href="/bootcamps/rust"
-                className="text-gray-700 hover:text-blue-600 pl-2"
-              >
-                - Rust Bootcamp
-              </Link>
-
-              <Link
-                href="/bootcamps/data-ai"
-                className="text-gray-700 hover:text-blue-600 font-medium"
-              >
-                Data + AI bootcamps
-              </Link>
-              <Link
-                href="/bootcamps/data-analytics"
-                className="text-gray-700 hover:text-blue-600 pl-2"
-              >
-                - Data Analytics Bootcamp
-              </Link>
-              <Link
-                href="/bootcamps/data-science"
-                className="text-gray-700 hover:text-blue-600 pl-2"
-              >
-                - Data Science Bootcamp
-              </Link>
-              <Link
-                href="/bootcamps/ai-ml"
-                className="text-gray-700 hover:text-blue-600 pl-2"
-              >
-                - AI/ML Bootcamp
-              </Link>
-
-              <Link
-                href="/bootcamps/ux-ui"
-                className="text-gray-700 hover:text-blue-600 font-medium"
-              >
-                UX/UI Design Bootcamp
-              </Link>
-              <Link
-                href="/bootcamps/cybersecurity"
-                className="text-gray-700 hover:text-blue-600 font-medium"
-              >
-                Cybersecurity Bootcamp
-              </Link>
-              <Link
-                href="/bootcamps/jobcamp"
-                className="text-gray-700 hover:text-blue-600 font-medium"
-              >
-                Jobcamp™ - Career Prep
+                - Upskill Your Team
               </Link>
             </nav>
           </div>
 
           {/* For businesses and legal links */}
           <div>
-            <div className="mb-8">
-              <h3 className="text-gray-500 text-sm font-medium uppercase mb-6">
-                FOR BUSINESSES
-              </h3>
-              <nav className="flex flex-col space-y-3">
-                <Link
-                  href="/business"
-                  className="text-gray-700 hover:text-blue-600"
-                >
-                  Business
-                </Link>
-                <Link
-                  href="/business/hiring-partner"
-                  className="text-gray-700 hover:text-blue-600"
-                >
-                  - Hiring Partner
-                </Link>
-                <Link
-                  href="/business/upskill"
-                  className="text-gray-700 hover:text-blue-600"
-                >
-                  - Upskill Your Team
-                </Link>
-              </nav>
-            </div>
-
             <div>
               <h3 className="text-gray-500 text-sm font-medium uppercase mb-6">
                 LEGAL
