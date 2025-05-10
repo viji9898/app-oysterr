@@ -39,7 +39,10 @@ const SpringPromoBookingForm = () => {
   };
 
   return (
-    <div className="mx-auto my-4 px-4 sm:px-6 md:px-8 max-w-[1040px]">
+    <div
+      className="mx-auto my-4 px-4 sm:px-6 md:px-8 max-w-[1040px]"
+      id="contact-us"
+    >
       <div className="bg-green-50 rounded-xl overflow-hidden h-full shadow-lg">
         <div className="grid grid-cols-1 md:grid-cols-2 h-full">
           {/* Left Column - Promotion Content */}

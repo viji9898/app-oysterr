@@ -8,18 +8,27 @@ const ContactForm = () => {
 
   const handleFormSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
+
+    const form = event.currentTarget;
+    const formData = new FormData(form);
+
+    const fullName = `${formData.get("firstName") || ""} ${
+      formData.get("lastName") || ""
+    }`.trim();
+    const email = formData.get("email") || "";
+
     try {
-      setStatus("pending");
-      setError(null);
-      const form = event.currentTarget;
-      const formData = new FormData(form);
-      const res = await fetch("/__forms.html", {
+      const res = await fetch("/", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(formData as any).toString(),
       });
+
       if (res.status === 200) {
-        setStatus("ok");
+        const redirectUrl = `https://www.videoask.com/fr25vozij?hideplay&contact_name=${encodeURIComponent(
+          fullName
+        )}&contact_email=${encodeURIComponent(email.toString())}`;
+        window.location.href = redirectUrl;
       } else {
         setStatus("error");
         setError(`${res.status} ${res.statusText}`);
