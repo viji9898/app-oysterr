@@ -28,7 +28,10 @@ const ContactForm = () => {
         const redirectUrl = `https://www.videoask.com/fr25vozij?hideplay&contact_name=${encodeURIComponent(
           fullName
         )}&contact_email=${encodeURIComponent(email.toString())}`;
-        window.location.href = redirectUrl;
+
+        setTimeout(() => {
+          window.location.href = redirectUrl;
+        }, 2000); // 2-second delay
       } else {
         setStatus("error");
         setError(`${res.status} ${res.statusText}`);
@@ -126,7 +129,7 @@ const ContactForm = () => {
         </div>
 
         <button
-          className="w-full bg-indigo-900 hover:bg-indigo-800 text-white py-2 sm:py-3 rounded font-semibold text-sm sm:text-base transition-colors"
+          className="w-full bg-indigo-900 hover:bg-indigo-800 text-white py-2 sm:py-3 rounded font-semibold text-sm sm:text-base transition-colors cursor-pointer"
           type="submit"
           disabled={status === "pending"}
         >
