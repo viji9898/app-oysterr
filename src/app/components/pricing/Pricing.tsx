@@ -54,7 +54,10 @@ const Pricing = () => {
   ];
 
   return (
-    <div className="flex flex-col items-center w-full max-w-[1060px] mx-auto px-4">
+    <div
+      className="flex flex-col items-center w-full max-w-[1060px] mx-auto px-4"
+      id="pricing"
+    >
       <div className="text-center mb-8">
         <div className="inline-block bg-gradient-to-r from-teal-400 to-teal-500 text-white px-6 py-2 rounded-full text-sm font-medium mb-4">
           Your Remote Team

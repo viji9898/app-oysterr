@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutOysterr = () => {
   return (
-    <section className=" bg-white" id="Metana-Certified">
+    <section className="bg-white" id="about-us">
       <div className="max-w-[1060px] mx-auto px-4">
         <div className="mb-4 text-center">
           <span className="text-xs uppercase font-bold px-4 py-1 bg-gradient-to-r from-pink-500 to-orange-400 text-white rounded-full">

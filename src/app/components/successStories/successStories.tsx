@@ -64,8 +64,8 @@ const SuccessStories = () => {
             Customer <span className="text-blue-500">Success</span>
           </h2>
           <p className="text-lg text-gray-700 mb-4">
-            With a 4.8/5 star rating on Course Report, and Switchup, we're one
-            of the top Web3, data engineering and cybersecurity bootcamps.
+            Streamline operations with elite remote talent from Sri Lanka. Save
+            costs, boost efficiency, and scale effortlessly.
           </p>
           {/* <a
               href="#"

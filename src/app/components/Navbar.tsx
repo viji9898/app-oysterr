@@ -24,8 +24,8 @@ export default function Navbar() {
 
         {/* Desktop nav */}
         <nav className="hidden md:flex gap-8 items-center text-xsm font-medium text-gray-800 relative">
-          <Link href="#">Product</Link>
-          <Link href="#">Pricing</Link>
+          <Link href="#about-us">About</Link>
+          <Link href="#pricing">Pricing</Link>
 
           {/* Bootcamps Dropdown */}
           {/* <div
