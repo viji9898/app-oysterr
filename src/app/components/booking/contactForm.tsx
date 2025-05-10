@@ -82,36 +82,22 @@ const ContactForm = () => {
           <label className="block text-xs font-medium text-gray-700 mb-1">
             Phone *
           </label>
-          <div className="flex">
-            <div className="inline-flex items-center border border-gray-300 rounded-l bg-white px-2">
-              <div className="flex items-center">
-                <div className="w-4 h-3 bg-red-500 relative overflow-hidden mr-1 sm:mr-2">
-                  <div className="absolute inset-0 bg-red-500"></div>
-                  <div className="absolute left-0 top-0 bottom-0 w-1/3 bg-yellow-500 border-r-2 border-yellow-700"></div>
-                </div>
-                <span className="text-xs">▼</span>
-              </div>
-            </div>
+          <div className="flex gap-2">
             <input
-              name="phone"
-              type="tel"
-              placeholder="Country Code + Number"
+              name="countryCode"
+              type="text"
+              placeholder="+44"
               required
-              className="w-full p-2 border border-gray-300 rounded-r text-sm"
+              className="w-1/3 p-2 border border-gray-300 rounded text-sm"
+            />
+            <input
+              name="phoneNumber"
+              type="tel"
+              placeholder="Phone Number"
+              required
+              className="w-2/3 p-2 border border-gray-300 rounded text-sm"
             />
           </div>
-        </div>
-
-        <div>
-          <label className="block text-xs font-medium text-gray-700 mb-1">
-            Message *
-          </label>
-          <textarea
-            name="message"
-            rows={4}
-            required
-            className="w-full p-2 border border-gray-300 rounded text-sm"
-          />
         </div>
 
         <div>
