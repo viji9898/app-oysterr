@@ -4,6 +4,7 @@
 import React, { useState, FormEvent, ChangeEvent } from "react";
 import Image from "next/image";
 import OfferDeadline from "./OfferDeadline";
+import ContactForm from "./contactForm";
 
 const SpringPromoBookingForm = () => {
   const [formData, setFormData] = useState({
@@ -152,9 +153,9 @@ const SpringPromoBookingForm = () => {
               </div>
             </div>
           </div>
-
           {/* Right Column - Form */}
-          <div className="bg-white h-full p-4 sm:p-6 md:p-8">
+          <ContactForm />
+          {/* <div className="bg-white h-full p-4 sm:p-6 md:p-8">
             <form onSubmit={handleSubmit} className="h-full flex flex-col">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4 mb-3 sm:mb-4">
                 <div>
@@ -223,7 +224,7 @@ const SpringPromoBookingForm = () => {
                   <div className="inline-flex items-center border border-gray-300 rounded-l bg-white px-2">
                     <div className="flex items-center">
                       <div className="w-4 h-3 bg-red-500 relative overflow-hidden mr-1 sm:mr-2">
-                        {/* Sri Lanka flag - simplified version */}
+         
                         <div className="absolute inset-0 bg-red-500"></div>
                         <div className="absolute left-0 top-0 bottom-0 w-1/3 bg-yellow-500 border-r-2 border-yellow-700"></div>
                       </div>
@@ -269,7 +270,7 @@ const SpringPromoBookingForm = () => {
                 {isSubmitting ? "Processing..." : "Continue"}
               </button>
             </form>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

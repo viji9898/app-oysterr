@@ -68,7 +68,7 @@ const Footer = () => {
                 opportunities.
               </p>
               <a
-                href="mailto:info@metana.io"
+                href="mailto:hello@oysterrTalent.com"
                 className="text-gray-900 hover:text-blue-600"
               >
                 hello@oysterrTalent.com
