@@ -18,20 +18,22 @@ const ContactForm = () => {
     const email = formData.get("email") || "";
 
     try {
-      const res = await fetch("/", {
+      const res = await fetch("/__forms.html", {
         method: "POST",
         headers: { "Content-Type": "application/x-www-form-urlencoded" },
         body: new URLSearchParams(formData as any).toString(),
       });
 
       if (res.status === 200) {
-        const redirectUrl = `https://www.videoask.com/fr25vozij?hideplay&contact_name=${encodeURIComponent(
-          fullName
-        )}&contact_email=${encodeURIComponent(email.toString())}`;
+        setStatus("ok");
 
+        // Wait a bit for the UI to show the thank you message before redirecting
         setTimeout(() => {
+          const redirectUrl = `https://www.videoask.com/fr25vozij?hideplay&contact_name=${encodeURIComponent(
+            fullName
+          )}&contact_email=${encodeURIComponent(email.toString())}`;
           window.location.href = redirectUrl;
-        }, 2000); // 2-second delay
+        }, 1000); // 2 second delay
       } else {
         setStatus("error");
         setError(`${res.status} ${res.statusText}`);
@@ -142,7 +144,9 @@ const ContactForm = () => {
           </div>
         )}
         {status === "error" && (
-          <div className="text-red-600 text-sm font-medium">Error: {error}</div>
+          <div className="text-red-600 text-sm font-medium">
+            Oops! Something went wrong. Try again?
+          </div>
         )}
       </form>
     </div>
