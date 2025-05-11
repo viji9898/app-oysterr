@@ -101,6 +101,7 @@ const ContactForm = () => {
               name="countryCode"
               type="text"
               placeholder="+44"
+              autoComplete="off"
               required
               className="w-1/3 p-2 border border-gray-300 rounded text-sm"
             />
