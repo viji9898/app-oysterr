@@ -33,7 +33,7 @@ const ContactForm = () => {
             fullName
           )}&contact_email=${encodeURIComponent(email.toString())}`;
           window.location.href = redirectUrl;
-        }, 1000); // 2 second delay
+        }, 100); //
       } else {
         setStatus("error");
         setError(`${res.status} ${res.statusText}`);
@@ -140,7 +140,7 @@ const ContactForm = () => {
 
         {status === "ok" && (
           <div className="text-green-600 text-sm font-medium">
-            Submitted successfully!
+            Submitted successfully! Redirecting...
           </div>
         )}
         {status === "error" && (
