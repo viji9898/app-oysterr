@@ -68,7 +68,7 @@ const Hero = () => {
 
           {/* Rocking 3/4 Circle Behind Image */}
           <div className="absolute inset-0 flex items-center justify-center z-0">
-            <div className="rocking-circle bg-lime-300"></div>
+            <div className="rocking-circle"></div>
           </div>
 
           {/* Image */}

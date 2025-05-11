@@ -58,6 +58,7 @@
   border-right: 15px solid rgb(100, 181, 246);
   border-radius: 50%;
   position: absolute;
+  background-color: rgb(190 242 100 / var(--tw-bg-opacity, 1));
 }
 
 body {
