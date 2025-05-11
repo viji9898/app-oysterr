@@ -150,29 +150,29 @@ const Footer = () => {
                   Privacy Policy
                 </Link>
                 <Link
-                  href="/legal/job-guarantee-agreement"
+                  href="/legal/trial-terms-and-conditions"
                   className="text-gray-700 hover:text-blue-600"
                 >
-                  Job Guarantee & Graduation Criteria
+                  Trail Terms And Conditions
                 </Link>
-                <Link
+                {/* <Link
                   href="/legal/withdrawal-and-refund-policy"
                   className="text-gray-700 hover:text-blue-600"
                 >
                   Withdrawal and Refund Policy
-                </Link>
+                </Link> */}
                 <Link
                   href="/legal/attributions-and-credits"
                   className="text-gray-700 hover:text-blue-600"
                 >
                   Attributions & Credits
                 </Link>
-                <Link
+                {/* <Link
                   href="/legal/affiliate-program"
                   className="text-gray-700 hover:text-blue-600"
                 >
                   Affiliate Program
-                </Link>
+                </Link> */}
               </nav>
             </div>
 
