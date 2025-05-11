@@ -138,34 +138,40 @@ const Footer = () => {
               </h3>
               <nav className="flex flex-col space-y-3">
                 <Link
-                  href="/terms"
+                  href="/legal/terms-of-use"
                   className="text-gray-700 hover:text-blue-600"
                 >
                   Terms of Use
                 </Link>
                 <Link
-                  href="/privacy"
+                  href="/legal/privacy-policy"
                   className="text-gray-700 hover:text-blue-600"
                 >
                   Privacy Policy
                 </Link>
                 <Link
-                  href="/job-guarantee-policy"
+                  href="/legal/job-guarantee-agreement"
                   className="text-gray-700 hover:text-blue-600"
                 >
-                  Job Guarantee Policy
+                  Job Guarantee & Graduation Criteria
                 </Link>
                 <Link
-                  href="/refund-policy"
+                  href="/legal/withdrawal-and-refund-policy"
                   className="text-gray-700 hover:text-blue-600"
                 >
                   Withdrawal and Refund Policy
                 </Link>
                 <Link
-                  href="/credits"
+                  href="/legal/attributions-and-credits"
                   className="text-gray-700 hover:text-blue-600"
                 >
                   Attributions & Credits
+                </Link>
+                <Link
+                  href="/legal/affiliate-program"
+                  className="text-gray-700 hover:text-blue-600"
+                >
+                  Affiliate Program
                 </Link>
               </nav>
             </div>
