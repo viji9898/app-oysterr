@@ -73,7 +73,7 @@ const Hero = () => {
 
           {/* Image */}
           <img
-            src="https://oyster.wickyanalysis.com/wp-content/uploads/2025/02/image-1-2.png"
+            src="/images/hero/hero-picture-01.png"
             alt="Student testimonial"
             className="w-[1000px] md:w-[2000px] relative z-10"
           />
