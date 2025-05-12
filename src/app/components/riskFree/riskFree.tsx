@@ -13,8 +13,8 @@ const RiskFree = () => {
           <div className="lg:col-span-2 mb-10 lg:mb-0">
             <div className="max-w-md mx-auto lg:mx-0">
               <Image
-                src="https://metana.io/wp-content/uploads/2022/11/Job-Gurentee.png.webp"
-                alt="100% Guaranteed Tuition Refund"
+                src="/images/risk-free-guaranteed-01.png"
+                alt="100% Guaranteed Risk Free"
                 width={400}
                 height={400}
                 className="w-full h-auto"
