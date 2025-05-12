@@ -200,7 +200,7 @@ const Footer = () => {
                 and smarter.
               </p>
               <p className="text-gray-500 text-sm">
-                © 2025 Oysterr Talent (Private) Limited
+                © {new Date().getFullYear()} Oysterr Talent (Private) Limited
               </p>
             </div>
 
