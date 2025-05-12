@@ -124,14 +124,14 @@ export default function Navbar() {
               ⬇️ Services & Pricing PDF
             </Link> */}
             <Link
-              href="#"
+              href="/book-a-call"
               className="ml-4 bg-lime-300 hover:bg-lime-400 text-black font-semibold px-4 py-2 rounded-lg"
             >
               Book a call →
             </Link>
 
-            <Link href="#">Product</Link>
-            <Link href="#">Pricing</Link>
+            <Link href="/#about-us">About</Link>
+            <Link href="/#pricing">Pricing</Link>
 
             <div className="mt-6 text-sm text-gray-500">
               hello@oysterrtalent.com
