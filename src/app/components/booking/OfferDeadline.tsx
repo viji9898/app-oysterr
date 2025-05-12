@@ -7,7 +7,8 @@ const OfferDeadline: React.FC = () => {
 
   useEffect(() => {
     const date = new Date();
-    date.setDate(date.getDate() + 2);
+    date.setMonth(date.getMonth() + 1); // Move to next month
+    date.setDate(15); // Set to 15th
     const formatted = date.toLocaleDateString("en-US", {
       month: "short",
       day: "numeric",
