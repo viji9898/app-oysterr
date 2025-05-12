@@ -109,24 +109,15 @@ const Footer = () => {
               FOR Our Partners
             </h3>
             <nav className="flex flex-col space-y-3">
-              <Link
-                href="/business"
-                className="text-gray-700 hover:text-blue-600"
-              >
-                Business
-              </Link>
-              <Link
-                href="/business/hiring-partner"
-                className="text-gray-700 hover:text-blue-600"
-              >
+              <p className="text-gray-700 hover:text-blue-600">
+                Business <small> (coming soon) </small>
+              </p>
+              <p className="text-gray-700 hover:text-blue-600">
                 - Hiring Partner
-              </Link>
-              <Link
-                href="/business/upskill"
-                className="text-gray-700 hover:text-blue-600"
-              >
+              </p>
+              <p className="text-gray-700 hover:text-blue-600">
                 - Upskill Your Team
-              </Link>
+              </p>
             </nav>
           </div>
 
