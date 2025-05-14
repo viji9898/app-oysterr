@@ -6,7 +6,7 @@ import SuccessStories from "../components/successStories/successStories";
 const ThankYou = () => {
   return (
     <main className="min-h-screen bg-white px-4 pb-20">
-      <div className="flex flex-col items-center justify-center text-center max-w-md mx-auto pt-20">
+      <div className="flex flex-col items-center justify-center text-center max-w-md mx-auto pt-20 mt-10">
         <h1 className="text-3xl sm:text-4xl font-bold mb-6">
           <span
             className="px-2 rounded"
@@ -34,7 +34,7 @@ const ThankYou = () => {
       </div>
 
       {/* Divider and Success Stories Section */}
-      <div className="max-w-5xl mx-auto mt-16 px-4">
+      <div className="max-w-5xl mx-auto mt-3 px-4">
         <hr className="border-t border-gray-200 mb-12" />
         <SuccessStories />
       </div>
