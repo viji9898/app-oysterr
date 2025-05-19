@@ -29,6 +29,26 @@ export const metadata: Metadata = {
   title: "Oysterr Talent – Employee Outsourcing Solutions",
   description:
     "A premium employee outsourcing services, connecting global businesses with skilled professionals. Whether you're seeking dedicated teams or individual talent, we provide tailored workforce solutions to meet your company's unique needs.",
+  openGraph: {
+    title: "Oysterr Talent – Employee Outsourcing Solutions",
+    description:
+      "A premium employee outsourcing services, connecting global businesses with skilled professionals.",
+    images: [
+      {
+        url: "/images/og-image-oysterr.jpg", // local public path
+        width: 1200,
+        height: 630,
+        alt: "Oysterr Talent Open Graph Image",
+      },
+    ],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Oysterr Talent – Employee Outsourcing Solutions",
+    description:
+      "A premium employee outsourcing service, connecting global businesses with skilled professionals.",
+    images: ["/images/og-image-oysterr.jpg"],
+  },
 };
 
 export default function RootLayout({
