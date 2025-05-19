@@ -3,6 +3,7 @@ import { Be_Vietnam_Pro } from "next/font/google";
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/layout/Footer";
+import Head from "next/head"; // Import Head for metadata injection
 
 // const geistSans = Geist({
 //   variable: "--font-geist-sans",
@@ -58,9 +59,46 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <head>
+      <Head>
+        {/* General Metadata */}
+        <title>{String(metadata.title)}</title>
+        <meta name="description" content={String(metadata.description || "")} />
+
+        {/* Open Graph Metadata */}
+        <meta
+          property="og:title"
+          content={String(metadata.openGraph?.title || "")}
+        />
+        <meta
+          property="og:description"
+          content={String(metadata.openGraph?.description || "")}
+        />
+        {Array.isArray(metadata.openGraph?.images) &&
+          metadata.openGraph.images.map((image, index) => (
+            <meta key={index} property="og:image" content={String(image.url)} />
+          ))}
+
+        {/* Twitter Metadata */}
+        {/* <meta
+          name="twitter:card"
+          content={String(metadata.twitter?.card || "")}
+        /> */}
+        <meta
+          name="twitter:title"
+          content={String(metadata.twitter?.title || "")}
+        />
+        <meta
+          name="twitter:description"
+          content={String(metadata.twitter?.description || "")}
+        />
+        {Array.isArray(metadata.twitter?.images) &&
+          metadata.twitter.images.map((image, index) => (
+            <meta key={index} name="twitter:image" content={String(image)} />
+          ))}
+
+        {/* Additional Metadata */}
         <meta name="color-scheme" content="light only" />
-      </head>
+      </Head>
       <body className={`font-be-vietnam-pro antialiased bg-white`}>
         <Navbar />
         <div>{children}</div>
