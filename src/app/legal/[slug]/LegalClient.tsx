@@ -78,7 +78,7 @@ const LegalClient = ({ slug }: LegalClientProps) => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Sidebar Menu - Fixed on desktop */}
           <div className="md:col-span-1">
-            <div className="md:sticky md:top-8">
+            <div className="md:sticky md:top-30">
               <ul className="space-y-4">
                 {menuItems.map((item, index) => (
                   <li key={index}>
