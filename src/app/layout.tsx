@@ -65,7 +65,7 @@ export default function RootLayout({
         <meta name="description" content={String(metadata.description || "")} />
 
         {/* Open Graph Metadata */}
-        <meta
+        {/* <meta
           property="og:title"
           content={String(metadata.openGraph?.title || "")}
         />
@@ -76,7 +76,7 @@ export default function RootLayout({
         {Array.isArray(metadata.openGraph?.images) &&
           metadata.openGraph.images.map((image, index) => (
             <meta key={index} property="og:image" content={String(image.url)} />
-          ))}
+          ))} */}
 
         {/* Twitter Metadata */}
         {/* <meta

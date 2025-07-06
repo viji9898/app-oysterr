@@ -51,7 +51,7 @@ const SpringPromoBookingForm = () => {
             <div className="flex mb-4">
               <div className="h-12 sm:h-14 w-12 sm:w-14 rounded-full border-4 border-lime-400 overflow-hidden z-30 relative">
                 <Image
-                  src="https://metana.io/wp-content/uploads/2024/12/Metana-Team-PFP-shevin-2.png"
+                  src="/images/oysterr-team-pp-venu.jpeg"
                   alt="Team member"
                   width={30}
                   height={30}
@@ -60,7 +60,7 @@ const SpringPromoBookingForm = () => {
               </div>
               <div className="h-12 sm:h-14 w-12 sm:w-14 rounded-full border-4 border-lime-400 overflow-hidden -ml-3 z-20 relative">
                 <Image
-                  src="https://metana.io/wp-content/uploads/2024/12/T03HW9TLR5J-U03SYLP68RJ-ee5d61293711-192.jpeg"
+                  src="/images/oysterr-team-pp-kirlosh.jpeg"
                   alt="Team member"
                   width={30}
                   height={30}
@@ -69,7 +69,7 @@ const SpringPromoBookingForm = () => {
               </div>
               <div className="h-12 sm:h-14 w-12 sm:w-14 rounded-full border-4 border-lime-400 overflow-hidden -ml-3 z-10 relative">
                 <Image
-                  src="https://metana.io/wp-content/uploads/2024/12/Ounvin.jpg"
+                  src="/images/oysterr-team-pp-viji.jpeg"
                   alt="Team member"
                   width={30}
                   height={30}
