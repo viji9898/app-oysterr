@@ -69,10 +69,11 @@ const Pricing = () => {
           Human support you need
         </h2>
         <p className="text-gray-600 max-w-3xl mx-auto mb-8">
-          With Metana's bootcamp, you can upskill for a new career without
-          quitting your job. You're not alone—we're here for you from enrollment
-          to graduation and beyond! Learn on your terms with dedicated pros by
-          your side.
+          With Oysterr, you get access to world-class remote talent without the
+          overhead. We work closely with you from onboarding to ongoing support,
+          making it easy to scale your team with professionals who deliver.
+          Flexible, reliable, and tailored to your needs—Oysterr is your partner
+          in growth.
         </p>
       </div>
 
